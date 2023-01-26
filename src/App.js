@@ -14,7 +14,7 @@ function App() {
     <div className='App'>
       <div className='wrapper2'>
       <h3 className='head'> My chat Application</h3>
-           <Button className='btn'>Login Using Google <FaGooglePlusG  /></Button>
+           <Button className='btn'>Login Using Google+ <FaGooglePlusG  /></Button>
            
            </div>
     </div>
