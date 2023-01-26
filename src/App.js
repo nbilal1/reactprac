@@ -5,14 +5,18 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Carousal from './components/Carousal';
-import Naavbar from './components/Naavbar';
+import {FaGooglePlusG} from 'react-icons/fa';
+import GoogleButton from 'react-google-button';
+  
+import './App.css'
 function App() {
   return (
-    <div>
-             <Naavbar/>
-    <Carousal/>
-    
+    <div className='App'>
+      <div className='wrapper2'>
+      <h3 className='head'> My chat Application</h3>
+           <Button className='btn'>Login Using Google <FaGooglePlusG  /></Button>
+           
+           </div>
     </div>
   );
 }
